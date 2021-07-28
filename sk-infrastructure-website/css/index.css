@@ -73,8 +73,26 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
-/*--------------------*/
 
+/*--------------------*/
+@font-face {
+  font-family: "Gilam";
+  src: url("../fonts/Fonts-boroda/GilamBlack.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamBlack.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamBlack.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Gilam";
+  font-size: 100px;
+}
+
+p {
+  font-family: serif;
+}
 /* Media  */
 
 /* // Small devices (landscape phones, 576px and up) */
