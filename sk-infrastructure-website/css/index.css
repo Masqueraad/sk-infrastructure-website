@@ -100,20 +100,22 @@ h6 {
   font-style: normal;
 }
 
-
 @font-face {
-  font-family: 'Gilam Book';
-  src: url('../fonts/Fonts-boroda/GilamBook.eot');
-  src: local('☺'), url('../fonts/Fonts-boroda/GilamBlack.woff') format('woff'), url('../fonts/Fonts-boroda/GilamBlack.ttf') format('truetype'), url('../fonts/Fonts-boroda/GilamBlack.svg') format('svg');
+  font-family: "Gilam Book";
+  src: url("../fonts/Fonts-boroda/GilamBook.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamBlack.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamBlack.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-
 @font-face {
-  font-family: 'Gilam Regular';
-  src: url('../fonts/Fonts-boroda/GilamRegular.eot');
-  src: local('☺'), url('../fonts/Fonts-boroda/GilamRegular.woff') format('woff'), url('../fonts/Fonts-boroda/GilamRegular.ttf') format('truetype'), url('../fonts/Fonts-boroda/GilamRegular.svg') format('svg');
+  font-family: "Gilam Regular";
+  src: url("../fonts/Fonts-boroda/GilamRegular.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamRegular.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamRegular.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamRegular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -147,22 +149,32 @@ h6 {
   font-style: normal;
 }
 
-
-
-
-
-body {
-  font-family: "Gilam Bold";
-  font-size: 100px;
+/* header-section */
+.header-block {
+  padding: 40px 0px 0px 0px;
 }
-
-p {
-  font-family: serif;
+.header-block__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
+.header-block__burger {
+}
+.icon {
+}
+.header-block__tel {
+}
+.header-block__tel-icon {
+}
 /* Media  */
 
 /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) {
+  .container {
+    padding: 0px 15px 0px 15px;
+    min-width: 290px;
+  }
+}
 @media (min-width: 576px) {
   .container {
     padding: 0px 15px 0px 15px;
@@ -171,13 +183,17 @@ p {
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}
