@@ -4,6 +4,7 @@
   margin: 0;
   border: 0;
 }
+
 *,
 *:before,
 *:after {
@@ -11,20 +12,24 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 :focus,
 :active {
   outline: none;
 }
+
 a:focus,
 a:active {
   outline: none;
 }
+
 nav,
 footer,
 header,
 aside {
   display: block;
 }
+
 html,
 body {
   height: 100%;
@@ -36,34 +41,43 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 input,
 button,
 textarea {
   font-family: inherit;
 }
+
 input::-ms-clear {
   display: none;
 }
+
 button {
   cursor: pointer;
 }
+
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+
 a,
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
+
 img {
   vertical-align: top;
 }
+
 h1,
 h2,
 h3,
@@ -75,12 +89,31 @@ h6 {
 }
 
 /*--------------------*/
+
 @font-face {
-  font-family: "Gilam";
-  src: url("../fonts/Fonts-boroda/GilamBlack.eot");
-  src: local("☺"), url("../fonts/Fonts-boroda/GilamBlack.woff") format("woff"),
+  font-family: "Gilam Bold";
+  src: url("../fonts/Fonts-boroda/GilamBold.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamBold.woff") format("woff"),
     url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
-    url("../fonts/Fonts-boroda/GilamBlack.svg") format("svg");
+    url("../fonts/Fonts-boroda/GilamBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gilam Book';
+  src: url('../fonts/Fonts-boroda/GilamBook.eot');
+  src: local('☺'), url('../fonts/Fonts-boroda/GilamBlack.woff') format('woff'), url('../fonts/Fonts-boroda/GilamBlack.ttf') format('truetype'), url('../fonts/Fonts-boroda/GilamBlack.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gilam Regular';
+  src: url('../fonts/Fonts-boroda/GilamRegular.eot');
+  src: local('☺'), url('../fonts/Fonts-boroda/GilamRegular.woff') format('woff'), url('../fonts/Fonts-boroda/GilamRegular.ttf') format('truetype'), url('../fonts/Fonts-boroda/GilamRegular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -114,14 +147,19 @@ h6 {
   font-style: normal;
 }
 
+
+
+
+
 body {
-  font-family: "Gilam";
+  font-family: "Gilam Bold";
   font-size: 100px;
 }
 
 p {
   font-family: serif;
 }
+
 /* Media  */
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -133,17 +171,13 @@ p {
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
+@media (min-width: 992px) {}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-}
+@media (min-width: 1400px) {}
