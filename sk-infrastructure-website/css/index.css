@@ -4,6 +4,7 @@
   margin: 0;
   border: 0;
 }
+
 *,
 *:before,
 *:after {
@@ -11,20 +12,24 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 :focus,
 :active {
   outline: none;
 }
+
 a:focus,
 a:active {
   outline: none;
 }
+
 nav,
 footer,
 header,
 aside {
   display: block;
 }
+
 html,
 body {
   height: 100%;
@@ -36,34 +41,43 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 input,
 button,
 textarea {
   font-family: inherit;
 }
+
 input::-ms-clear {
   display: none;
 }
+
 button {
   cursor: pointer;
 }
+
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+
 a,
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
+
 img {
   vertical-align: top;
 }
+
 h1,
 h2,
 h3,
@@ -97,17 +111,181 @@ h6 {
   font-style: normal;
 }
 
-body {
-  font-family: serif;
-  font-size: 100px;
+@font-face {
+  font-family: "Gilam Book";
+  src: url("../fonts/Fonts-boroda/GilamBook.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamBlack.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamBlack.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
-p {
+@font-face {
+  font-family: "Gilam Regular";
+  src: url("../fonts/Fonts-boroda/GilamRegular.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamRegular.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamRegular.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GilamSemiBold";
+  src: url("../fonts/Fonts-boroda/GilamSemiBold.eot");
+  src: local("☺"),
+    url("../fonts/Fonts-boroda/GilamSemiBold.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamSemiBold.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamSemiBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GilamExtraLight";
+  src: url("../fonts/Fonts-boroda/GilamExtraLight.eot");
+  src: local("☺"),
+    url("../fonts/Fonts-boroda/GilamExtraLight.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamExtraLight.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamExtraLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GilamLight";
+  src: url("../fonts/Fonts-boroda/GilamLight.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamLight.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamLight.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circle-bold";
+  src: url("../fonts/Circle-fonts/Circle-bold.eot");
+  src: local("☺"), url("../fonts/Circle-fonts/Circle-bold.woff") format("woff"),
+    url("../fonts/Circle-fonts/Circle-bold.ttf") format("truetype"),
+    url("../fonts/Circle-fonts/Circle-bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circle-light";
+  src: url("../fonts/Circle-fonts/Circle-light.eot");
+  src: local("☺"), url("../fonts/Circle-fonts/Circle-light.woff") format("woff"),
+    url("../fonts/Circle-fonts/Circle-light.ttf") format("truetype"),
+    url("../fonts/Circle-fonts/Circle-light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circle-regular";
+  src: url("../fonts/Circle-fonts/Circle-Regular.eot");
+  src: local("☺"),
+    url("../fonts/Circle-fonts/Circle-Regular.woff") format("woff"),
+    url("../fonts/Circle-fonts/Circle-Regular.ttf") format("truetype"),
+    url("../fonts/Circle-fonts/Circle-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* header-section */
+.header-infrastructure-bg-wrapper {
+  background: url("/sk-infrastructure-website/img/bg-header.png") 0 0 / cover
+    no-repeat;
+}
+.header-block {
+  padding: 40px 0px 0px 0px;
+}
+.header-block__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-block__burger {
+}
+.icon {
+}
+.header-block__tel {
+  font-family: Circe;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+}
+.header-block__tel p {
+  color: #fff;
+}
+.header-block__tel span {
+  color: #d6af76;
+}
+.header-block__tel-icon {
+}
+
+.infrastructure-block {
+  padding: 60px 0px 60px 0px;
+}
+.infrastructure-block__logo {
+  margin: 0px 0px 60px 0px;
+}
+.infrastructure-block__row {
+}
+.infrastructure-block-service {
+}
+.infrastructure-block-service__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Circle-light";
+  font-size: 17px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.items__logo {
+  margin: 0px 10px 20px 0px;
+}
+.items__text {
+  max-width: 230px;
+  margin: 0px 0px 20px 0px;
+}
+.infrastructure-block-description {
+  margin: 40px 0px 0px 0px;
+}
+.infrastructure-block-description__title {
   font-family: "Gilam Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+}
+.infrastructure-block-description__list li {
+  font-family: "GilamLight";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+.infrastructure-block-description__list li::before {
+  flex: 0 0 10px;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  margin: 0px 10px 0px 0px;
 }
 /* Media  */
 
 /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) {
+  .container {
+    padding: 0px 15px 0px 15px;
+    min-width: 290px;
+  }
+}
 @media (min-width: 576px) {
   .container {
     padding: 0px 15px 0px 15px;
