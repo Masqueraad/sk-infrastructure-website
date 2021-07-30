@@ -1,0 +1,122 @@
+@import "null-style.css";
+@import "fonts.css";
+
+body {
+  background-color: #171717;
+}
+.header-block {
+  padding: 40px 0px 0px 0px;
+}
+.header-block__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-block__tel {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+}
+.header-block__tel p {
+  color: #fff;
+}
+.header-block__tel span {
+  color: #d6af76;
+}
+.nav__info {
+  margin-top: 67px;
+  display: flex;
+  font-family: "Circle Light";
+  margin-bottom: 40px;
+}
+.nav__info span {
+  color: #606060;
+  margin: 0 7px;
+}
+.nav__first a {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 13px;
+  color: #606060;
+  text-decoration: underline;
+}
+.nav__second a {
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 13px;
+  color: #606060;
+}
+
+.title {
+  font-family: "Gilam Bold";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 75px;
+}
+
+.contacts-information {
+  margin-left: 6px;
+}
+.contacts-information__title {
+  font-family: "Gilam Bold";
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.contacts-information__items {
+  margin-top: 30px;
+  color: #fff;
+}
+.contacts-information__phone {
+  display: flex;
+  align-items: center;
+  font-family: "Gilam Regular";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 26px;
+}
+.contacts-information__phone img {
+  margin-right: 15px;
+}
+.contacts-information__mail {
+  display: flex;
+  align-items: center;
+  font-family: "Gilam Regular";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 28px;
+}
+.contacts-information__mail img {
+  margin-right: 15px;
+}
+.contacts-information__address {
+  display: flex;
+  align-items: baseline;
+  font-family: "Gilam Regular";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 28px;
+}
+.contacts-information__address img {
+  margin-right: 15px;
+}
+
+@media (min-width: 320px) {
+  .container {
+    padding: 0px 15px 0px 15px;
+    min-width: 290px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    padding: 0px 15px 0px 15px;
+    min-width: 290px;
+  }
+}
