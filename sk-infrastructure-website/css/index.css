@@ -87,9 +87,7 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
-
 /*--------------------*/
-
 @font-face {
   font-family: "Gilam Bold";
   src: url("../fonts/Fonts-boroda/GilamBold.eot");
@@ -120,7 +118,7 @@ h6 {
   font-style: normal;
 }
 @font-face {
-  font-family: "GilamSemiBold";
+  font-family: "Gilam Semi-Bold";
   src: url("../fonts/Fonts-boroda/GilamSemiBold.eot");
   src: local("☺"),
     url("../fonts/Fonts-boroda/GilamSemiBold.woff") format("woff"),
@@ -131,7 +129,7 @@ h6 {
 }
 
 @font-face {
-  font-family: "GilamExtraLight";
+  font-family: "Gilam Extra-Light";
   src: url("../fonts/Fonts-boroda/GilamExtraLight.eot");
   src: local("☺"),
     url("../fonts/Fonts-boroda/GilamExtraLight.woff") format("woff"),
@@ -141,7 +139,7 @@ h6 {
   font-style: normal;
 }
 @font-face {
-  font-family: "GilamLight";
+  font-family: "Gilam Light";
   src: url("../fonts/Fonts-boroda/GilamLight.eot");
   src: local("☺"), url("../fonts/Fonts-boroda/GilamLight.woff") format("woff"),
     url("../fonts/Fonts-boroda/GilamLight.ttf") format("truetype"),
@@ -150,7 +148,7 @@ h6 {
   font-style: normal;
 }
 @font-face {
-  font-family: "Circle-bold";
+  font-family: "Circle Bold";
   src: url("../fonts/Circle-fonts/Circle-bold.eot");
   src: local("☺"), url("../fonts/Circle-fonts/Circle-bold.woff") format("woff"),
     url("../fonts/Circle-fonts/Circle-bold.ttf") format("truetype"),
@@ -160,7 +158,7 @@ h6 {
 }
 
 @font-face {
-  font-family: "Circle-light";
+  font-family: "Circle Light";
   src: url("../fonts/Circle-fonts/Circle-light.eot");
   src: local("☺"), url("../fonts/Circle-fonts/Circle-light.woff") format("woff"),
     url("../fonts/Circle-fonts/Circle-light.ttf") format("truetype"),
@@ -169,7 +167,7 @@ h6 {
   font-style: normal;
 }
 @font-face {
-  font-family: "Circle-regular";
+  font-family: "Circle Regular";
   src: url("../fonts/Circle-fonts/Circle-Regular.eot");
   src: local("☺"),
     url("../fonts/Circle-fonts/Circle-Regular.woff") format("woff"),
@@ -192,10 +190,7 @@ h6 {
   justify-content: space-around;
   align-items: center;
 }
-.header-block__burger {
-}
-.icon {
-}
+
 .header-block__tel {
   font-family: Circe;
   font-style: normal;
@@ -209,8 +204,6 @@ h6 {
 .header-block__tel span {
   color: #d6af76;
 }
-.header-block__tel-icon {
-}
 
 .infrastructure-block {
   padding: 60px 0px 60px 0px;
@@ -218,18 +211,24 @@ h6 {
 .infrastructure-block__logo {
   margin: 0px 0px 60px 0px;
 }
-.infrastructure-block__row {
+.infrastructure-block__logo img {
+  width: 100%;
+  max-width: 290px;
+  height: auto;
 }
+
 .infrastructure-block-service {
+  padding: 0px 0px 25px 0px;
 }
 .infrastructure-block-service__items {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  font-family: "Circle-light";
+  font-family: "Circle Light";
   font-size: 17px;
   line-height: 23px;
   color: #ffffff;
+  max-width: 290px;
 }
 .items__logo {
   margin: 0px 10px 20px 0px;
@@ -251,20 +250,53 @@ h6 {
   margin: 0px 0px 20px 0px;
 }
 .infrastructure-block-description__list li {
-  font-family: "GilamLight";
+  font-family: "Gilam Light";
   font-style: normal;
   font-weight: normal;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 30px;
   color: #ffffff;
   display: flex;
 }
+
 .infrastructure-block-description__list li::before {
   flex: 0 0 10px;
   content: "";
   background-color: #fff;
-  height: 1px;
-  margin: 0px 10px 0px 0px;
+  height: 2px;
+  margin: 15px 10px 0px 0px;
+}
+
+/* our-principles-block */
+
+.our-principles-block {
+  background: #171717;
+}
+.container {
+}
+.our-principles-block__row {
+  display: flex;
+  flex-direction: column;
+}
+.our-principles-block__body {
+}
+.our-principles-block__items {
+}
+.our-principles-block__title {
+  font-family: "Gilam Bold";
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.our-principles-block-list {
+}
+.our-principles-block-list__title {
+}
+.our-principles-block-list__list {
+}
+.our-principles-block__btn {
+}
+.our-principles-block__img {
 }
 /* Media  */
 
