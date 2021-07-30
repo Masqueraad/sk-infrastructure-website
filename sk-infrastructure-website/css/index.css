@@ -180,6 +180,10 @@ h6 {
 }
 
 /* header-section */
+.header-infrastructure-bg-wrapper {
+  background: url("/sk-infrastructure-website/img/bg-header.png") 0 0 / cover
+    no-repeat;
+}
 .header-block {
   padding: 40px 0px 0px 0px;
 }
@@ -193,8 +197,74 @@ h6 {
 .icon {
 }
 .header-block__tel {
+  font-family: Circe;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+}
+.header-block__tel p {
+  color: #fff;
+}
+.header-block__tel span {
+  color: #d6af76;
 }
 .header-block__tel-icon {
+}
+
+.infrastructure-block {
+  padding: 60px 0px 60px 0px;
+}
+.infrastructure-block__logo {
+  margin: 0px 0px 60px 0px;
+}
+.infrastructure-block__row {
+}
+.infrastructure-block-service {
+}
+.infrastructure-block-service__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Circle-light";
+  font-size: 17px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.items__logo {
+  margin: 0px 10px 20px 0px;
+}
+.items__text {
+  max-width: 230px;
+  margin: 0px 0px 20px 0px;
+}
+.infrastructure-block-description {
+  margin: 40px 0px 0px 0px;
+}
+.infrastructure-block-description__title {
+  font-family: "Gilam Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+}
+.infrastructure-block-description__list li {
+  font-family: "GilamLight";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+}
+.infrastructure-block-description__list li::before {
+  flex: 0 0 10px;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  margin: 0px 10px 0px 0px;
 }
 /* Media  */
 
