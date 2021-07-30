@@ -16,7 +16,7 @@
 }
 
 .header-block__tel {
-  font-family: Circe;
+  font-family: "Circe Bold";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -96,8 +96,6 @@
 .our-principles-block {
   background: #171717;
 }
-.container {
-}
 .our-principles-block__row {
   display: flex;
   flex-direction: column;
@@ -111,16 +109,54 @@
   font-size: 30px;
   line-height: 28px;
   color: #ffffff;
+  margin: 65px 0px 44px 0px;
 }
 .our-principles-block-list {
 }
 .our-principles-block-list__title {
+  font-family: "Circle Bold";
+  font-size: 23px;
+  line-height: 23px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
+
+.our-principles-block-list__title-bg {
+  margin: 0px 5px 0px -20px;
+}
+
 .our-principles-block-list__list {
+  font-family: "Circe Regular";
+  font-size: 16px;
+  line-height: 13px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+  margin: 20px 0px 25px 0px;
+}
+.our-principles-block-list__list li {
+  max-width: 240px;
+  margin: 0 auto;
 }
 .our-principles-block__btn {
+  border: 1px solid #e4b564;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 70px 0px;
 }
-.our-principles-block__img {
+.our-principles-block__btn a {
+  font-family: Circe Regular;
+  font-size: 18px;
+  line-height: 30px;
+  color: #e4b564;
+}
+.our-principles-block__img img {
+  width: 100%;
+  max-width: 730px;
+  height: auto;
 }
 /* Media  */
 
