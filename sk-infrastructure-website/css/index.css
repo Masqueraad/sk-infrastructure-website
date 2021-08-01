@@ -3,7 +3,7 @@
 
 /* header-section */
 .header-infrastructure-bg-wrapper {
-  background: url("/sk-infrastructure-website/img/bg-header.png") 0 0 / cover
+  background: url("sk-infrastructure-website/img/bg-header.png") 0 0 / cover
     no-repeat;
 }
 .header-block {
