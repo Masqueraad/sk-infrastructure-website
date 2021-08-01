@@ -159,10 +159,40 @@
   line-height: 30px;
   color: #e4b564;
 }
-.our-principes-block__slider img {
+
+.our-principes-block__slider {
+  max-width: 290px;
+  text-align: center;
+}
+.slide {
+}
+.photo img {
   width: 100%;
-  max-width: 400px;
+  max-width: 200px;
   height: auto;
+}
+.slider-nav {
+  width: 290px;
+  height: 172px;
+  background-color: #202020;
+  padding: 31px 0px 12px 0px;
+}
+.name {
+  font-family: Circe Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0px 0px 12px 0px;
+}
+.text {
+  font-family: Circe Light;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
 /* Media  */
 
