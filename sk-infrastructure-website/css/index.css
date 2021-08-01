@@ -93,34 +93,77 @@
 
 /* our-principles-block */
 .our-principes-block {
+  background-color: #171717;
 }
-.container {
-}
+
 .our-principes-block__row {
   display: flex;
+  flex-wrap: wrap;
 }
 .our-principes-block__body {
 }
 .items-our-principes-block {
 }
 .items-our-principes-block__title {
+  font-family: "Gilam Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0px 0px 30px 0px;
 }
 .items-our-principes-block__row {
   display: flex;
 }
 .items-our-principes-block__icon {
+  margin: -5px 15px 0px 0px;
 }
 .items-our-principes-block__list {
 }
 .items-our-principes-block__list-title {
+  font-family: "Circe Regular";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 23px;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
 }
 .items-our-principes-block__list-list {
+  font-family: Circe Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 13px;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+}
+.items-our-principes-block__list-list li {
+  margin: 0px 0px 15px 0px;
 }
 .our-principes-block__btn {
+  border: 1px solid #e4b564;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  max-width: 320px;
+  margin: 30px 0px 0px 0px;
 }
-.our-principes-block__slider {
+.our-principes-block__btn a {
+  font-family: Circe Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #e4b564;
 }
-
+.our-principes-block__slider img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 /* Media  */
 
 /* // Small devices (landscape phones, 576px and up) */
