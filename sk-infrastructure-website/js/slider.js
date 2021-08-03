@@ -1,6 +1,6 @@
 $(".our-principes-block__slider").slick({
   dots: true,
-  arrows: true,
+  arrows: false,
   adaptiveHeight: true,
 });
 $(".btn-next").click(function (e) {
