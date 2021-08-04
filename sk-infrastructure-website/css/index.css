@@ -145,20 +145,22 @@
 }
 .our-principes-block__btn {
   border: 1px solid #e4b564;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   padding: 10px;
   max-width: 320px;
   margin: 30px 0px 0px 0px;
 }
-.our-principes-block__btn a {
+.btn {
   font-family: Circe Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #e4b564;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .our-principes-block__slider {
@@ -230,9 +232,83 @@
   color: #e4b564;
 }
 
-/* Media  */
+/* our-customers-section */
+.our-customers-block {
+  background-color: #0e0e0e;
+  padding: 60px 0px 110px 0px;
+}
 
-/* // Small devices (landscape phones, 576px and up) */
+.our-customers-block__title h3 {
+  font-family: "Gilam Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: #ffffff;
+  margin: 0px 0px 50px 0px;
+}
+.our-customers-block__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.items-our-customers-block {
+}
+.rectangle {
+  width: 100%;
+  max-width: 320px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-our-customers-block__rectangle1 {
+  background: url("../img/our-customers-block-bg1.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle2 {
+  background: url("../img/our-customers-block-bg2.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle3 {
+  background: url("../img/our-customers-block-bg3.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle4 {
+  background: url("../img/our-customers-block-bg4.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle5 {
+  background: url("../img/our-customers-block-bg5.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle6 {
+  background: url("../img/our-customers-block-bg6.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__logo {
+  margin: 0px 0px 30px 0px;
+}
+.items-our-customers-block__logo img {
+  width: 100%;
+  height: auto;
+}
+.items-our-customers-block__text {
+  font-family: "Gilam Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 220px;
+}
+.items-our-customers-block__text p {
+  margin: 0px 0px 10px 0px;
+}
+.our-customers-block__btn {
+  border: 1px solid #e4b564;
+  padding: 10px;
+  max-width: 320px;
+  margin: 30px 0px 0px 0px;
+}
+
+/* media */
 @media (min-width: 320px) {
   .container {
     padding: 0px 15px 0px 15px;
