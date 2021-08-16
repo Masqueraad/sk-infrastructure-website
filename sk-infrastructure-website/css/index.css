@@ -400,6 +400,17 @@
 .form__load-file {
   margin: 20px 0px 30px 0px;
 }
+.load__file-label {
+  display: block;
+  background-color: #151515;
+  padding: 15px 0 15px 25px;
+  width: 100%;
+  max-width: 320px;
+  color: #fff;
+}
+.load__file-input {
+  display: none;
+}
 .form__checkbox input {
   width: 100%;
   max-width: 30px;
