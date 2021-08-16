@@ -1,77 +1,102 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="sk-infrastructure-website/css/contacts.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-block">
-        <div class="container">
-          <div class="header-block__row">
-            <div class="header-block__burger">
-              <a id="menu" href="#" class="icon">&#9776;</a>
-            </div>
-            <div class="header-block__tel">
-              <a href="tel:+7 (812) 401-64-95">
-                <p><span>+7 (812)</span> 401-64-95</p>
-              </a>
-            </div>
-            <div class="header-block__tel-icon">
-              <img
-                src="sk-infrastructure-website/img/icons/tel-icon.svg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="sk-infrastructure-website/css/contacts.css">
+  <title>Contacts</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="nav__left">
+        <div class="burger"></div>
+        <img src="" alt="" />
       </div>
-    </header>
-    <main>
-      <div class="container">
-        <div class="nav__info">
-          <div class="nav__first"><a href="#">Главная </a></div>
+      <div class="nav__right">
+        <p>+7 (812) 401-64-95</p>
+        <a href="#">Обратный звонок</a>
+      </div>
+    </nav>
+    <div class="page__block">
+      <div class="page__left">
+        <div class="page__position">
+          <a href="#">Главная</a>
           <span>/</span>
-          <div class="nav__second"><a href="#"> Контакты</a></div>
+          <a href="#">Контакты</a>
         </div>
-        <div class="title">
+        <div class="page__title">
           <h3>Контакты</h3>
         </div>
-        <div class="contacts-information">
-          <div class="contacts-information__title">
-            <h4>Офис в Санкт-Петербурге:</h4>
+        <div class="page__subtitle">
+          <p>Офис в Санкт-Петербурге:</p>
+        </div>
+        <div class="page__contacts">
+          <div class="page-contacts__phone">
+            <img src="img/icons_phone .svg" alt="phone" />
+            <p>+7 (812) 438-26-35</p>
           </div>
-          <div class="contacts-information__items">
-            <div class="contacts-information__phone">
-              <img
-                src="/sk-infrastructure-website/img/icons/icons_phone .svg"
-                alt="phone"
-              />
-              <p>+7 (812) 438-26-35</p>
-            </div>
-            <div class="contacts-information__mail">
-              <img
-                src="/sk-infrastructure-website/img/icons/icons_email.svg"
-                alt="email"
-              />
-              <p>info@skinfra.ru</p>
-            </div>
-            <div class="contacts-information__address">
-              <img
-                src="/sk-infrastructure-website/img/icons/icons_address.svg"
-                alt="address"
-              />
-              <p>
-                195197, Санкт-Петербург, Кондратьевский пр., д. 15, к. 2, л. З,
-                офис 204 БЦ "Фернан Леже"
-              </p>
-            </div>
+          <div class="page-contacts__email">
+            <img src="img/icons_email.svg" alt="email" />
+            <p>info@skinfra.ru</p>
+          </div>
+          <div class="page-contacts__address">
+            <img src="img/icons_address.svg" alt="address" />
+            <p>
+              195197, Санкт-Петербург, Кондратьевский пр., д. 15, к. 2, л. З,
+              офис 204 БЦ "Фернан Леже"
+            </p>
+          </div>
+          <div class="page-contacts__btn">
+            <a href="#" download="">Скачать реквизиты</a>
           </div>
         </div>
+        <div class="page-place__info">
+          <p>Информационная карта участника тендера:</p>
+          <a href="#" download="">Скачать, файл PDF</a>
+        </div>
+        <div class="page-contact-us">
+          <h4>Свяжитесь с нами</h4>
+          <p>
+            Задайте вопрос, пришлите коммерческое предложение или пригласите
+            на тендер
+          </p>
+        </div>
+        <form action="#">
+          <div class="form__block">
+            <div class="form__left">
+              <p>Представьтесь, пожалуйста*</p>
+              <input type="text" name="firstname" placeholder="Ваше имя" />
+              <div class="form-left__btn">
+                <label for="myfile" class="chous">Прикрепить файл</label>
+                <input type="file" class="my" id="myfile" name="myfile" multiple="multiple" />
+              </div>
+            </div>
+            <div class="form__right">
+              <p>Ваш телефон</p>
+              <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" />
+              <a href="#">Перезвоните мне</a>
+            </div>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="agree" value="yes" />
+            <label for="agree">Я соглашаюсь с <span>политикой конфиденциальности</span></label>
+          </div>
+        </form>
       </div>
-    </main>
-  </body>
+      <div class="page__right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1523.3773618314362!2d21.97717892676674!3d50.04873528830262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfb6d7660595f%3A0xe2a8d6d89bb4150c!2zS3Jha293c2thIDE4RywgMzUtMTExIFJ6ZXN6w7N3LCDQn9C-0LvRjNGI0LA!5e0!3m2!1sru!2sua!4v1627904240311!5m2!1sru!2sua"
+          allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
