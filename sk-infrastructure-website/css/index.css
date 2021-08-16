@@ -307,7 +307,121 @@
   max-width: 320px;
   margin: 30px 0px 0px 0px;
 }
+/* contact-section */
+.contact-us-block {
+  background-color: #232323;
+  color: #ffffff;
+  padding: 40px 0px 40px 0px;
+}
+.contact-us-block__row {
+  display: flex;
+}
+.contact-us-block-left {
+  font-family: "Gilam Regular";
+}
+.contact-us-block-left__title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0px 0px 30px 0px;
+}
+.contact-us-block-left__subtitle p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 28px;
+  margin: 0px 0px 30px 0px;
+}
+.contact-us-block-left__rowitems {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 28px;
+  margin: 0px 0px 25px 0px;
+}
+.contact-us-block-left__rowitems img {
+  margin: 5px 15px 0px 0px;
+}
+.contact-us-block-left__icon {
+}
+.contact-us-block-left__phone a {
+  color: #fff;
+}
+.contact-us-block-left__mail a {
+  color: #fff;
+}
+.contact-us-block-left__map {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.contact-us-block-left-contact {
+}
+.contact-us-block-left-contact__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0px 0px 10px 0px;
+}
+.contact-us-block-left-contact__text {
+  font-family: "Gilam Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0px 0px 25px 0px;
+}
+.contact-us-block-left__form {
+  font-family: "Gilam Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+}
+.contact-us-block-left__form input {
+  background-color: #151515;
+  padding: 15px 0 15px 25px;
+  width: 100%;
+  max-width: 320px;
+  color: #fff;
+}
+.form__name {
+  margin: 0px 0px 14px 0px;
+}
 
+.form__phone {
+  margin: 20px 0px 10px 0px;
+}
+
+.form__load-file {
+  margin: 20px 0px 30px 0px;
+}
+.form__checkbox input {
+  width: 100%;
+  max-width: 30px;
+}
+
+.form__call-us-btn {
+  border: 1px solid #e4b564;
+  padding: 10px;
+  max-width: 320px;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+:-moz-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
 /* media */
 @media (min-width: 320px) {
   .container {
