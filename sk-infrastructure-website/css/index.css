@@ -1,10 +1,10 @@
 @import "null-style.css";
 @import "fonts.css";
+@import "header.css";
 
 /* header-section */
 .header-infrastructure-bg-wrapper {
-  background: url("/sk-infrastructure-website/img/bg-header.png") 0 0 / cover
-    no-repeat;
+  background: url("../img/bg-header.png") 0 0 / cover no-repeat;
 }
 .header-block {
   padding: 40px 0px 0px 0px;
@@ -92,75 +92,348 @@
 }
 
 /* our-principles-block */
+.our-principes-block {
+  background-color: #171717;
+  padding: 60px 0px 60px 0px;
+}
 
-.our-principles-block {
-  background: #171717;
-}
-.our-principles-block__row {
+.our-principes-block__row {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
-.our-principles-block__body {
+.our-principes-block__body {
 }
-.our-principles-block__items {
+.items-our-principes-block {
 }
-.our-principles-block__title {
+.items-our-principes-block__title {
   font-family: "Gilam Bold";
+  font-style: normal;
+  font-weight: bold;
   font-size: 30px;
   line-height: 28px;
   color: #ffffff;
-  margin: 65px 0px 44px 0px;
+  margin: 0px 0px 30px 0px;
 }
-.our-principles-block-list {
+.items-our-principes-block__row {
+  display: flex;
 }
-.our-principles-block-list__title {
-  font-family: "Circle Bold";
+.items-our-principes-block__icon {
+  margin: -5px 15px 0px 0px;
+}
+.items-our-principes-block__list {
+}
+.items-our-principes-block__list-title {
+  font-family: "Circe Regular";
+  font-style: normal;
+  font-weight: bold;
   font-size: 23px;
   line-height: 23px;
   color: #ffffff;
-  display: flex;
-  align-items: center;
+  margin: 0px 0px 20px 0px;
 }
-
-.our-principles-block-list__title-bg {
-  margin: 0px 5px 0px -20px;
-}
-
-.our-principles-block-list__list {
-  font-family: "Circe Regular";
+.items-our-principes-block__list-list {
+  font-family: Circe Light;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 13px;
   color: #ffffff;
-  font-style: normal;
-  font-weight: 300;
-  margin: 20px 0px 25px 0px;
+  margin: 0px 0px 20px 0px;
 }
-.our-principles-block-list__list li {
-  max-width: 240px;
-  margin: 0 auto;
+.items-our-principes-block__list-list li {
+  margin: 0px 0px 15px 0px;
 }
-.our-principles-block__btn {
+.our-principes-block__btn {
   border: 1px solid #e4b564;
+
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 0px 70px 0px;
+  max-width: 320px;
+  margin: 30px 0px 0px 0px;
 }
-.our-principles-block__btn a {
+.btn {
   font-family: Circe Regular;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #e4b564;
-}
-.our-principles-block__img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  max-width: 730px;
+}
+
+.our-principes-block__slider {
+  max-width: 310px;
+  margin: 70px 0px 0px 0px;
+  text-align: center;
+}
+.slide {
+}
+.photo img {
+  width: 100%;
+  max-width: 200px;
   height: auto;
 }
-/* Media  */
+.slider-nav {
+  background-color: #202020;
+  max-width: 290px;
+  padding: 30px 0px 30px 0px;
+  margin: -20px 0px 0px 0px;
+  position: relative;
+  z-index: 2;
+}
+.name {
+  font-family: Circe Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0px 0px 12px 0px;
+  max-width: 235px;
+}
+.text {
+  font-family: Circe Light;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+  max-width: 250px;
+}
+.button__slider {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 250px;
+}
+.btn-next,
+.btn-prev {
+  border: 1px solid #e4b564;
+  padding: 10px 15px 10px 15px;
+  background-color: #202020;
+  color: #e4b564;
+  margin: 0px 10px 0px 10px;
+}
+.btn-next {
+  color: #fff;
+  background-color: #e4b564;
+}
+.slick-dots li button:before {
+  position: absolute;
+  top: -63px;
+  left: -79px;
+  opacity: 1;
+  color: #f1f2f8;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #e4b564;
+}
 
-/* // Small devices (landscape phones, 576px and up) */
+/* our-customers-section */
+.our-customers-block {
+  background-color: #0e0e0e;
+  padding: 60px 0px 110px 0px;
+}
+
+.our-customers-block__title h3 {
+  font-family: "Gilam Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: #ffffff;
+  margin: 0px 0px 50px 0px;
+}
+.our-customers-block__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.items-our-customers-block {
+}
+.rectangle {
+  width: 100%;
+  max-width: 320px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-our-customers-block__rectangle1 {
+  background: url("../img/our-customers-block-bg1.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle2 {
+  background: url("../img/our-customers-block-bg2.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle3 {
+  background: url("../img/our-customers-block-bg3.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle4 {
+  background: url("../img/our-customers-block-bg4.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle5 {
+  background: url("../img/our-customers-block-bg5.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__rectangle6 {
+  background: url("../img/our-customers-block-bg6.png") 0 0 / cover no-repeat;
+}
+.items-our-customers-block__logo {
+  margin: 0px 0px 30px 0px;
+}
+.items-our-customers-block__logo img {
+  width: 100%;
+  height: auto;
+}
+.items-our-customers-block__text {
+  font-family: "Gilam Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 220px;
+}
+.items-our-customers-block__text p {
+  margin: 0px 0px 10px 0px;
+}
+.our-customers-block__btn {
+  border: 1px solid #e4b564;
+  padding: 10px;
+  max-width: 320px;
+  margin: 30px 0px 0px 0px;
+}
+/* contact-section */
+.contact-us-block {
+  background-color: #232323;
+  color: #ffffff;
+  padding: 40px 0px 40px 0px;
+}
+.contact-us-block__row {
+  display: flex;
+}
+.contact-us-block-left {
+  font-family: "Gilam Regular";
+}
+.contact-us-block-left__title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0px 0px 30px 0px;
+}
+.contact-us-block-left__subtitle p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 28px;
+  margin: 0px 0px 30px 0px;
+}
+.contact-us-block-left__rowitems {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 28px;
+  margin: 0px 0px 25px 0px;
+}
+.contact-us-block-left__rowitems img {
+  margin: 5px 15px 0px 0px;
+}
+.contact-us-block-left__icon {
+}
+.contact-us-block-left__phone a {
+  color: #fff;
+}
+.contact-us-block-left__mail a {
+  color: #fff;
+}
+.contact-us-block-left__map {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.contact-us-block-left-contact {
+}
+.contact-us-block-left-contact__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0px 0px 10px 0px;
+}
+.contact-us-block-left-contact__text {
+  font-family: "Gilam Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0px 0px 25px 0px;
+}
+.contact-us-block-left__form {
+  font-family: "Gilam Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+}
+.contact-us-block-left__form input {
+  background-color: #151515;
+  padding: 15px 0 15px 25px;
+  width: 100%;
+  max-width: 320px;
+  color: #fff;
+}
+.form__name {
+  margin: 0px 0px 14px 0px;
+}
+
+.form__phone {
+  margin: 20px 0px 10px 0px;
+}
+
+.form__load-file {
+  margin: 20px 0px 30px 0px;
+}
+.load__file-label {
+  display: block;
+  background-color: #151515;
+  padding: 15px 0 15px 25px;
+  width: 100%;
+  max-width: 320px;
+  color: #fff;
+}
+.load__file-input {
+  display: none;
+}
+.form__checkbox input {
+  width: 100%;
+  max-width: 30px;
+}
+
+.form__call-us-btn {
+  border: 1px solid #e4b564;
+  padding: 10px;
+  max-width: 320px;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+:-moz-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+/* media */
 @media (min-width: 320px) {
   .container {
     padding: 0px 15px 0px 15px;
