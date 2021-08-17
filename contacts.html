@@ -13,17 +13,53 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav>
-      <div class="nav__left">
-        <div class="burger"></div>
-        <img src="" alt="" />
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <div class="header__tel">
+          <a href="tel:+78124016495">
+            <p><span>+7 (812)</span> 401-64-95</p>
+          </a>
+        </div>
+        <div class="header__tel-icon">
+          <img src="sk-infrastructure-website/img/icons/tel-icon.svg" alt="" />
+        </div>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li><a href="#" class="header__link">Главная</a></li>
+            <li><a href="#" class="header__link">Компания</a></li>
+            <li><a href="#" class="header__pre-link">Вакансии</a></li>
+            <li><a href="#" class="header__link">Услуги</a></li>
+            <li>
+              <a href="#" class="header__pre-link">Сети водоснабжени</a>
+            </li>
+            <li>
+              <a href="#" class="header__pre-link">Водоотведение и канализация</a>
+            </li>
+            <li>
+              <a href="#" class="header__pre-link">
+                Наружные тепловые сети</a>
+            </li>
+            <li>
+              <a href="#" class="header__pre-link">Монтаж Ж/Б конструкций</a>
+            </li>
+            <li>
+              <a href="#" class="header__pre-link">Благоустройство территорий</a>
+            </li>
+            <li><a href="#" class="header__link">Проекты </a></li>
+            <li><a href="#" class="header__link">Контакты </a></li>
+            <li>
+              <a href="#" class="header__link">Политика конфиденциальности</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="nav__right">
-        <p>+7 (812) 401-64-95</p>
-        <a href="#">Обратный звонок</a>
-      </div>
-    </nav>
+    </div>
+  </header>
+  <div class="container__contact">
     <div class="page__block">
       <div class="page__left">
         <div class="page__position">
@@ -39,27 +75,29 @@
         </div>
         <div class="page__contacts">
           <div class="page-contacts__phone">
-            <img src="img/icons_phone .svg" alt="phone" />
+            <img src="sk-infrastructure-website/img/icons/icons_phone .svg" alt="phone" />
             <p>+7 (812) 438-26-35</p>
           </div>
           <div class="page-contacts__email">
-            <img src="img/icons_email.svg" alt="email" />
+            <img src="sk-infrastructure-website/img/icons/icons_email.svg" alt="email" />
             <p>info@skinfra.ru</p>
           </div>
           <div class="page-contacts__address">
-            <img src="img/icons_address.svg" alt="address" />
+            <img src="sk-infrastructure-website/img/icons/icons_address.svg" alt="address" />
             <p>
               195197, Санкт-Петербург, Кондратьевский пр., д. 15, к. 2, л. З,
               офис 204 БЦ "Фернан Леже"
             </p>
           </div>
           <div class="page-contacts__btn">
-            <a href="#" download="">Скачать реквизиты</a>
+            <a href="#" download=""><img src="sk-infrastructure-website/img/icons/icons-download.svg" alt="">Скачать
+              реквизиты</a>
           </div>
         </div>
         <div class="page-place__info">
           <p>Информационная карта участника тендера:</p>
-          <a href="#" download="">Скачать, файл PDF</a>
+          <a href="#" download=""><img src="sk-infrastructure-website/img/icons/icons-download.svg" alt="">Скачать, файл
+            PDF</a>
         </div>
         <div class="page-contact-us">
           <h4>Свяжитесь с нами</h4>
@@ -76,6 +114,7 @@
               <div class="form-left__btn">
                 <label for="myfile" class="chous">Прикрепить файл</label>
                 <input type="file" class="my" id="myfile" name="myfile" multiple="multiple" />
+                <img src="sk-infrastructure-website/img/icons/icons-upload.svg" alt="">
               </div>
             </div>
             <div class="form__right">
@@ -97,6 +136,9 @@
       </div>
     </div>
   </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="sk-infrastructure-website/js/header.js"></script>
 </body>
 
 </html>

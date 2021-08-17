@@ -1,8 +1,11 @@
 @import "null-style.css";
+@import "header.css";
+@import "fonts.css";
 body {
     background-color: #171717;
+    font-family: "Gilam Regular";
 }
-.container {
+.container__contact {
     max-width: 1690px;
     margin-left: auto;
 }
@@ -19,9 +22,20 @@ nav {
     max-width: 869px;
     width: 100%;
 }
-.page__position {
+.page__position a {
+    font-family: "Circle Light";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 13px;
+    text-decoration-line: underline;
+    color: #606060;
+}
+.page__position span {
+    color: #606060;
+    padding: 0 5px;
 }
 .page__title {
+    font-family: "Gilam Bold";
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -30,6 +44,7 @@ nav {
     margin-top: 40px;
 }
 .page__subtitle {
+    font-family: "Gilam Bold";
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -38,16 +53,19 @@ nav {
     margin-top: 75px;
 }
 .page__contacts {
+    font-family: "Gilam Semi-Bold";
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .page-contacts__phone {
+    font-family: "Gilam Semi-Bold";
     display: flex;
     align-items: center;
 }
 .page-contacts__phone p {
+    font-family: "Gilam Semi-Bold";
     margin-left: 15px;
     font-style: normal;
     font-weight: 500;
@@ -85,8 +103,12 @@ nav {
 .page-contacts__btn {
     margin-top: 40px;
 }
+.page-contacts__btn img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
 .page-contacts__btn a {
-    font-style: normal;
+    font-family: "Circle Regular";
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
@@ -95,6 +117,7 @@ nav {
     border: 1px solid #e4b564;
 }
 .page-place__info {
+    font-family: "Gilam Semi-Bold";
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -102,10 +125,15 @@ nav {
     color: #ffffff;
     margin-top: 40px;
 }
+.page-place__info img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
 .page-place__info p {
     margin-bottom: 40px;
 }
 .page-place__info a {
+    font-family: "Circle Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -115,6 +143,7 @@ nav {
     border: 1px solid #e4b564;
 }
 .page-contact-us h4 {
+    font-family: "Gilam Semi-Bold";
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -146,6 +175,9 @@ form {
     color: #ffffff;
     max-width: 339px;
     width: 100%;
+}
+.form__left input {
+    color: #fff;
 }
 .form__left p {
     font-style: normal;
@@ -196,6 +228,7 @@ form {
     background: #0e0e0e;
     border: 1px solid #e4b564;
     color: #e4b564;
+    text-align: center;
 }
 .form__right p {
     font-style: normal;
@@ -234,6 +267,14 @@ form {
     overflow: hidden;
     position: absolute;
     z-index: -1;
+}
+.form-left__btn {
+    position: relative;
+}
+.form-left__btn img {
+    position: absolute;
+    top: 57px;
+    right: 19px;
 }
 .check {
     margin-top: 41px;
