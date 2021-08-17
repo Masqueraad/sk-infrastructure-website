@@ -424,43 +424,60 @@
               </div>
             </div>
             <form action="#" class="contact-us-block-left__form">
-              <div class="form__name">
-                <p>Представьтесь, пожалуйста*</p>
+              <div class="form__row">
+                <div class="form__name">
+                  <p>Представьтесь, пожалуйста*</p>
+                </div>
+                <div class="form__name-input">
+                  <input placeholder="Ваше имя" type="text" name="Name" />
+                </div>
+                <div class="form__phone">
+                  <p>Ваш телефон</p>
+                </div>
+                <div class="form__phone-input">
+                  <input
+                    placeholder="+7 (___) ___-__-__"
+                    type="tel"
+                    name="Telefon"
+                  />
+                </div>
               </div>
-              <div class="form__name-input">
-                <input placeholder="Ваше имя" type="text" name="Name" />
+              <div class="form__row">
+                <div class="form__load-file">
+                  <label for="myfile" class="load__file-label"
+                    >Прикрепить файл</label
+                  >
+                  <input
+                    type="file"
+                    class="load__file-input"
+                    id="myfile"
+                    name="myfile"
+                    multiple="multiple"
+                  />
+                </div>
+                <div class="form__call-us-btn btn">
+                  <a href="tel:+78124382635" class="btn"> Перезвоните мне </a>
+                </div>
               </div>
-              <div class="form__phone">
-                <p>Ваш телефон</p>
-              </div>
-              <div class="form__phone-input">
-                <input
-                  placeholder="+7 (___) ___-__-__"
-                  type="tel"
-                  name="Telefon"
-                />
-              </div>
+              <label>
+                <div class="form__checkbox">
+                  <input class="form__checkbox-input" type="checkbox" />
+                  <span class="style__checkbox"></span>
+                  <p class="checkbox__text">
+                    Я соглашаюсь <br />
+                    с
+                    <span class="checkbox__text-span"
+                      >политикой конфиденциальности</span
+                    >
+                  </p>
+                </div>
+              </label>
             </form>
-            <form action="#" class="contact-us-block-left__form">
-              <div class="form__load-file">
-                <label for="myfile" class="load__file-label"
-                  >Прикрепить файл</label
-                >
-                <input
-                  type="file"
-                  class="load__file-input"
-                  id="myfile"
-                  name="myfile"
-                  multiple="multiple"
-                />
-              </div>
-              <div class="form__checkbox">
-                <input type="checkbox" type="text" name="check" />
-              </div>
-              <div class="form__call-us-btn btn">
-                <a href="tel:+78124382635" class="btn"> Перезвоните мне </a>
-              </div>
-            </form>
+          </div>
+          <div class="contact-us-block-right">
+            <div class="contact-us-block-right__map">
+              <img src="" alt="" />
+            </div>
           </div>
         </div>
       </div>
