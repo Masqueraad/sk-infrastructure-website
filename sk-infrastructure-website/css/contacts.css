@@ -6,8 +6,9 @@ body {
     font-family: "Gilam Regular";
 }
 .container__contact {
-    max-width: 1690px;
+    max-width: 1680px;
     margin-left: auto;
+    padding-left: 10px;
 }
 nav {
     display: flex;
@@ -20,7 +21,7 @@ nav {
 }
 .page__left {
     max-width: 869px;
-    width: 100%;
+    width: 50%;
 }
 .page__position a {
     font-family: "Circle Light";
@@ -240,7 +241,7 @@ form {
 
 .page__right {
     max-width: 821px;
-    width: 100%;
+    width: 50%;
 }
 .page__right iframe {
     width: 100%;
@@ -257,7 +258,7 @@ form {
     line-height: 30px;
     background: #0e0e0e;
     color: #fff;
-    margin-top: 36px;
+    margin: 36px 0 14px 0;
 }
 
 .my {
@@ -277,23 +278,32 @@ form {
     right: 19px;
 }
 .check {
-    margin-top: 41px;
+    margin: 40px 0 20px 0;
 }
 
 .check input[type="checkbox"] {
     display: none;
 }
 .check label {
+    display: flex;
+    align-items: end;
     cursor: default;
     font-weight: normal;
-    line-height: 30px;
     padding: 10px 0;
     vertical-align: middle;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.check a {
+    font-family: "Gilam Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 25px;
     color: #ffffff;
+    padding-top: 4px;
 }
 .check span {
     text-decoration: underline;
@@ -310,9 +320,9 @@ form {
     width: 29px;
     height: 29px;
     background: #fff;
-    border: 1px solid #e3e3e3;
     border-image: initial;
     vertical-align: middle;
+    min-width: 29px;
 }
 .check input:checked + label:before {
     content: "\f00c";
@@ -325,4 +335,37 @@ form {
 .check input:disabled + label:before {
     background: #eee;
     color: #aaa;
+}
+@media (min-width: 1px) {
+    .container__contact {
+        padding: 0px 15px;
+        min-width: 290px;
+    }
+    .w-100 {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .w-100 {
+        width: 50%;
+    }
+    .container__contact {
+        padding: 0 0 0 15px;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 }
