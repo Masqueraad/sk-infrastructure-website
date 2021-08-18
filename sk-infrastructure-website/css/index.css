@@ -434,11 +434,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  width: 19px;
-  height: 19px;
+  width: 29px;
+  height: 29px;
   background-color: #e4b564;
   opacity: 0;
-  line-height: 19px;
+  line-height: 29px;
 }
 .checkbox__text {
   margin: 0px 0px 0px 15px;
@@ -499,10 +499,6 @@
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
   .header-infrastructure-bg-wrapper {
     background: url("../img/bg-header-desktop.png");
     background-repeat: no-repeat;
@@ -592,3 +588,5 @@
     left: 68px;
   }
 }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
