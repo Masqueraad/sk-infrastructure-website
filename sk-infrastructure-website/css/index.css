@@ -314,7 +314,8 @@
   background: url("/sk-infrastructure-website/img/bg-contact-us.svg");
   background-color: #232323;
   background-repeat: no-repeat;
-  background-position: 314% 30%;
+  background-position: -219px 270px;
+  overflow: hidden;
 }
 .contact-us-block__row {
   display: flex;
@@ -466,6 +467,7 @@
   height: 19px;
   background-color: #e4b564;
   opacity: 0;
+  line-height: 19px;
 }
 .checkbox__text {
   margin: 0px 0px 0px 15px;
@@ -477,13 +479,31 @@
 .form__checkbox-input:checked + .style__checkbox::before {
   opacity: 1;
 }
-.contact-us-block-right {
+.map-container {
+  max-width: 100%;
+  margin: 0px -15px 0px -15px;
 }
-.contact-us-block-right__map img {
+.contact-us-block__map {
+  background: url("../img/map.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  width: 200vh;
+  height: 100vh;
+  position: relative;
+}
+
+.contact-us-block__map-icon {
+  position: absolute;
+  top: 254px;
+  left: 245px;
+}
+.map-icon {
   width: 100%;
-  max-width: 320px;
+  min-width: 30px;
   height: auto;
 }
+
 /* media */
 @media (min-width: 320px) {
   .container {
