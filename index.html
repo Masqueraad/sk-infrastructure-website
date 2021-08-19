@@ -25,17 +25,21 @@
             <div class="header__burger">
               <span></span>
             </div>
-            <div class="header__tel">
-              <a href="tel:+78124016495">
-                <p><span>+7 (812)</span> 401-64-95</p></a
-              >
+            <div class="header-menu__row">
+              <div class="header__tel">
+                <a href="tel:+78124016495">
+                  <p><span>+7 (812)</span> 401-64-95</p></a
+                >
+              </div>
+              <div class="header__tel-icon">
+                <img
+                  src="sk-infrastructure-website/img/icons/contact-tel-icon.svg"
+                  alt=""
+                />
+                <p class="header__tel-icontext">Обратный звонок</p>
+              </div>
             </div>
-            <div class="header__tel-icon">
-              <img
-                src="sk-infrastructure-website/img/icons/tel-icon.svg"
-                alt=""
-              />
-            </div>
+
             <nav class="header__menu">
               <ul class="header__list">
                 <li><a href="#" class="header__link">Главная</a></li>
@@ -293,10 +297,12 @@
             </div>
             <div class="items-our-customers-block__text">
               <p>Работы по монтажу прифундаментного дренажа</p>
-              <p>Подробнее</p>
+              <p class="items-our-customers-block__text-details">Подробнее</p>
+              <p class="items-our-customers-block__text-adres">
+                по адресу: <br />ЛО, Всеволожский р-н, <br />«Ручьи»
+              </p>
             </div>
           </div>
-
           <div class="items-our-customers-block__rectangle2 rectangle">
             <div class="items-our-customers-block__logo">
               <img
@@ -306,7 +312,10 @@
             </div>
             <div class="items-our-customers-block__text">
               <p>Работы по монтажу прифундаментного дренажа</p>
-              <p>Подробнее</p>
+              <p class="items-our-customers-block__text-details">Подробнее</p>
+              <p class="items-our-customers-block__text-adres">
+                по адресу: <br />ЛО, Всеволожский р-н, <br />«Ручьи»
+              </p>
             </div>
           </div>
           <div class="items-our-customers-block__rectangle3 rectangle">
@@ -318,7 +327,10 @@
             </div>
             <div class="items-our-customers-block__text">
               <p>Работы по монтажу прифундаментного дренажа</p>
-              <p>Подробнее</p>
+              <p class="items-our-customers-block__text-details">Подробнее</p>
+              <p class="items-our-customers-block__text-adres">
+                по адресу: <br />ЛО, Всеволожский р-н, <br />«Ручьи»
+              </p>
             </div>
           </div>
           <div class="items-our-customers-block__rectangle4 rectangle">
@@ -330,7 +342,10 @@
             </div>
             <div class="items-our-customers-block__text">
               <p>Работы по монтажу прифундаментного дренажа</p>
-              <p>Подробнее</p>
+              <p class="items-our-customers-block__text-details">Подробнее</p>
+              <p class="items-our-customers-block__text-adres">
+                по адресу: <br />ЛО, Всеволожский р-н, <br />«Ручьи»
+              </p>
             </div>
           </div>
           <div class="items-our-customers-block__rectangle5 rectangle">
@@ -342,7 +357,10 @@
             </div>
             <div class="items-our-customers-block__text">
               <p>Работы по монтажу прифундаментного дренажа</p>
-              <p>Подробнее</p>
+              <p class="items-our-customers-block__text-details">Подробнее</p>
+              <p class="items-our-customers-block__text-adres">
+                по адресу: <br />ЛО, Всеволожский р-н, <br />«Ручьи»
+              </p>
             </div>
           </div>
           <div class="items-our-customers-block__rectangle6 rectangle">
@@ -354,7 +372,10 @@
             </div>
             <div class="items-our-customers-block__text">
               <p>Работы по монтажу прифундаментного дренажа</p>
-              <p>Подробнее</p>
+              <p class="items-our-customers-block__text-details">Подробнее</p>
+              <p class="items-our-customers-block__text-adres">
+                по адресу: <br />ЛО, Всеволожский р-н, <br />«Ручьи»
+              </p>
             </div>
           </div>
         </div>
@@ -425,38 +446,46 @@
             </div>
             <form action="#" class="contact-us-block-left__form">
               <div class="form__row">
-                <div class="form__name">
-                  <p>Представьтесь, пожалуйста*</p>
+                <div class="form__row1">
+                  <div class="form__name">
+                    <p>Представьтесь, пожалуйста*</p>
+                  </div>
+                  <div class="form__name-input">
+                    <input placeholder="Ваше имя" type="text" name="Name" />
+                  </div>
                 </div>
-                <div class="form__name-input">
-                  <input placeholder="Ваше имя" type="text" name="Name" />
-                </div>
-                <div class="form__phone">
-                  <p>Ваш телефон</p>
-                </div>
-                <div class="form__phone-input">
-                  <input
-                    placeholder="+7 (___) ___-__-__"
-                    type="tel"
-                    name="Telefon"
-                  />
+                <div class="form__row2">
+                  <div class="form__phone">
+                    <p>Ваш телефон</p>
+                  </div>
+                  <div class="form__phone-input">
+                    <input
+                      placeholder="+7 (___) ___-__-__"
+                      type="tel"
+                      name="Telefon"
+                    />
+                  </div>
                 </div>
               </div>
               <div class="form__row">
-                <div class="form__load-file">
-                  <label for="myfile" class="load__file-label"
-                    >Прикрепить файл</label
-                  >
-                  <input
-                    type="file"
-                    class="load__file-input"
-                    id="myfile"
-                    name="myfile"
-                    multiple="multiple"
-                  />
+                <div class="form__row3">
+                  <div class="form__load-file">
+                    <label for="myfile" class="load__file-label"
+                      >Прикрепить файл</label
+                    >
+                    <input
+                      type="file"
+                      class="load__file-input"
+                      id="myfile"
+                      name="myfile"
+                      multiple="multiple"
+                    />
+                  </div>
                 </div>
-                <div class="form__call-us-btn btn">
-                  <a href="tel:+78124382635" class="btn"> Перезвоните мне </a>
+                <div class="form__row4">
+                  <div class="form__call-us-btn btn">
+                    <a href="tel:+78124382635" class="btn"> Перезвоните мне </a>
+                  </div>
                 </div>
               </div>
               <label>

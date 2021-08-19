@@ -27,6 +27,7 @@
     color: #fff;
     position: relative;
     z-index: 3;
+    margin: 0px 40px 0px 0px;
 }
 .header__tel span {
     font-family: "Circe Bold";
@@ -39,9 +40,31 @@
 .header__tel-icon {
     position: relative;
     z-index: 3;
+    padding: 17px;
+    border: 1px solid #e4b564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__tel-icontext {
+    font-family: "Circe Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #e4b564;
+    white-space: nowrap;
+    margin: 0px 0px 0px 10px;
+    display: none;
 }
 .header__tel-icon img {
     width: 100%;
+    height: auto;
+}
+.header-menu__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__list {
@@ -134,4 +157,14 @@
 
 body.lock {
     overflow: hidden;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header__tel-icontext {
+        display: block;
+    }
+    .header__tel-icon {
+        padding: 10px 25px 10px 25px;
+    }
 }
