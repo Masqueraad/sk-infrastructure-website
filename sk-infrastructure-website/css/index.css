@@ -504,7 +504,7 @@
   }
 
   .infrastructure-block {
-    background: url(../img/img-main-page.png);
+    background: url("../img/img-main-page.png");
     background-repeat: no-repeat;
     background-position: 84% 53%;
   }
@@ -600,10 +600,28 @@
     max-width: 380px;
     height: 360px;
     cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    position: relative;
   }
   .items-our-customers-block__text {
     max-width: 320px;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: 500ms;
+    height: 0;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 1;
+  }
+  .items-our-customers-block__logo img {
+    position: relative;
+    z-index: 1;
+  }
+  .rectangle:hover .items-our-customers-block__text {
+    opacity: 1;
+    visibility: visible;
+    height: 130px;
   }
   .items-our-customers-block__text p {
     margin: 0px 0px 0px 0px;
@@ -619,76 +637,85 @@
   .rectangle:hover .items-our-customers-block__text {
     display: block;
   }
-  .rectangle:hover {
-    background: linear-gradient(
-      0deg,
-      rgba(177, 128, 55, 0.85),
-      rgba(177, 128, 55, 0.85)
-    );
-  }
-  .our-customers-block__btn {
-    border: 1px solid #e4b564;
-    padding: 10px;
-    margin: 30px auto 0px auto;
-    max-width: 250px;
-  }
-  /* contact-section */
-  .contact-us-block {
-    padding: 150px 0px 50px 0px;
-    background-position: 550px 128px;
-    background: url("../img/map.svg");
-    background-color: #232323;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: 1050px 0;
-    background-size: cover;
-  }
-  .contact-us-block-left__title h2 {
-    font-size: 50px;
-    line-height: 28px;
-    margin: 0px 0px 70px 0px;
-  }
-  .contact-us-block-left__map {
-    max-width: 500px;
-  }
-  .contact-us-block-left-contact__title {
-    font-size: 30px;
-    line-height: 28px;
-    margin: 75px 0px 10px 0px;
-  }
-  .contact-us-block-left-contact__text {
-    margin: 0px 0px 45px 0px;
-  }
-  .form__row {
-    display: flex;
-    align-items: center;
-  }
-  .form__row1 {
-    margin: 0px 20px 0px 0px;
-  }
-  .form__row2 {
-    margin: -16px 0px 0px 0px;
-  }
-  .form__row3 {
-    margin: 0px 20px 0px 0px;
-  }
-  .form__row4 {
-    margin: -9px 0px 0px 0px;
-  }
-  .contact-us-block-left__form input {
-    min-width: 350px;
-  }
-  .load__file-label {
-    min-width: 350px;
-  }
-  .form__call-us-btn {
-    min-width: 350px;
-  }
-
-  .contact-us-block__map-icon {
+  .rectangle:hover::before {
+    content: "";
     position: absolute;
-    top: 263px;
-    left: 1312px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(177, 128, 55, 0.6);
   }
+}
+.our-customers-block__btn {
+  border: 1px solid #e4b564;
+  padding: 10px;
+  margin: 30px auto 0px auto;
+  max-width: 250px;
+}
+/* contact-section */
+.contact-us-block {
+  padding: 150px 0px 50px 0px;
+  background-position: 550px 128px;
+  background: url("../img/map.svg");
+  background-color: #232323;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 1050px 0;
+  background-size: cover;
+}
+.contact-us-block-left__title h2 {
+  font-size: 50px;
+  line-height: 28px;
+  margin: 0px 0px 70px 0px;
+}
+.contact-us-block-left__map {
+  max-width: 500px;
+}
+.contact-us-block-left-contact__title {
+  font-size: 30px;
+  line-height: 28px;
+  margin: 75px 0px 10px 0px;
+}
+.contact-us-block-left-contact__text {
+  margin: 0px 0px 45px 0px;
+}
+.form__row {
+  display: flex;
+}
+.form__row1 {
+  margin: 0px 20px 0px 0px;
+}
+.form__row2 {
+}
+.form__row3 {
+  margin: 0px 20px 0px 0px;
+}
+.form__row4 {
+}
+.form__name {
+  margin: 0px 0px 20px 0px;
+}
+.form__phone {
+  margin: 0px 0px 20px 0px;
+}
+.form__load-file {
+  margin: 20px 0px 0px 0px;
+}
+.contact-us-block-left__form input {
+  min-width: 350px;
+}
+.load__file-label {
+  min-width: 350px;
+}
+.form__call-us-btn {
+  min-width: 350px;
+  margin: 20px 0px 0px 0px;
+}
+
+.contact-us-block__map-icon {
+  position: absolute;
+  top: 263px;
+  left: 1312px;
 }
 /* // XX-Large devices (larger desktops, 1400px and up) */
