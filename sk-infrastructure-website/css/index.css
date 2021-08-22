@@ -79,10 +79,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.our-principes-block__body {
-}
-.items-our-principes-block {
-}
+
 .items-our-principes-block__title {
   font-family: "Gilam Bold";
   font-style: normal;
@@ -98,8 +95,7 @@
 .items-our-principes-block__icon {
   margin: -5px 15px 0px 0px;
 }
-.items-our-principes-block__list {
-}
+
 .items-our-principes-block__list-title {
   font-family: "Circe Regular";
   font-style: normal;
@@ -144,8 +140,7 @@
   margin: 70px 0px 0px 0px;
   text-align: center;
 }
-.slide {
-}
+
 .photo img {
   width: 100%;
   max-width: 200px;
@@ -228,8 +223,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.items-our-customers-block {
-}
+
 .rectangle {
   width: 100%;
   height: 260px;
@@ -332,8 +326,7 @@
 .contact-us-block-left__rowitems img {
   margin: 5px 15px 0px 0px;
 }
-.contact-us-block-left__icon {
-}
+
 .contact-us-block-left__phone a {
   color: #fff;
 }
@@ -346,8 +339,7 @@
   font-size: 20px;
   line-height: 28px;
 }
-.contact-us-block-left-contact {
-}
+
 .contact-us-block-left-contact__title {
   font-style: normal;
   font-weight: 600;
@@ -418,8 +410,7 @@
 :-ms-input-placeholder {
   color: #fff;
 }
-.form__row {
-}
+
 .form__checkbox {
   margin: 20px 0px 0px 0px;
   display: flex;
@@ -650,13 +641,11 @@
   .form__row1 {
     margin: 0px 20px 0px 0px;
   }
-  .form__row2 {
-  }
+
   .form__row3 {
     margin: 0px 20px 0px 0px;
   }
-  .form__row4 {
-  }
+
   .form__name {
     margin: 0px 0px 20px 0px;
   }
@@ -877,13 +866,11 @@
   .form__row1 {
     margin: 0px 20px 0px 0px;
   }
-  .form__row2 {
-  }
+
   .form__row3 {
     margin: 0px 20px 0px 0px;
   }
-  .form__row4 {
-  }
+
   .form__name {
     margin: 0px 0px 20px 0px;
   }
