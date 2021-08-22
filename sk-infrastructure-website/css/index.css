@@ -226,6 +226,7 @@
 .our-customers-block__row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .items-our-customers-block {
 }
@@ -292,7 +293,7 @@
   color: #ffffff;
   padding: 40px 0px 700px 0px;
   position: relative;
-  background-image: url("../img/bg-contact-us.svg"), url("../img/map.svg");
+  background-image: url("../img/bg-contact-us.svg"), url("../img/map-main.png");
   background-color: #232323;
   background-repeat: no-repeat;
   background-position: -219px 270px, -213px 573px;
@@ -454,24 +455,12 @@
 .checkbox__text-span {
   text-decoration: underline;
 }
+.checkbox__text-wrap {
+  display: block;
+}
 
 .form__checkbox-input:checked + .style__checkbox::before {
   opacity: 1;
-}
-.map-container {
-  max-width: 100%;
-  margin: 0px -15px 0px -15px;
-}
-
-.contact-us-block__map-icon {
-  position: absolute;
-  bottom: 596px;
-  left: 256px;
-}
-.map-icon {
-  width: 100%;
-  min-width: 30px;
-  height: auto;
 }
 
 /* media */
@@ -501,6 +490,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .checkbox__text-wrap {
+    display: inline-block;
   }
 }
 
@@ -582,6 +574,7 @@
     top: -140px;
     left: 8px;
   }
+
   /* our-customers-section */
   .our-customers-block {
     padding: 150px 0px 130px 0px;
@@ -593,6 +586,7 @@
     color: #ffffff;
     margin: 0px 0px 50px 0px;
   }
+
   .rectangle {
     width: 100%;
     max-width: 350px;
@@ -644,6 +638,47 @@
     width: 100%;
     background: rgba(177, 128, 55, 0.6);
   }
+  .our-customers-block__btn {
+    border: 1px solid #e4b564;
+    padding: 10px;
+    margin: 30px auto 0px auto;
+    max-width: 250px;
+  }
+  .form__row {
+    display: flex;
+  }
+  .form__row1 {
+    margin: 0px 20px 0px 0px;
+  }
+  .form__row2 {
+  }
+  .form__row3 {
+    margin: 0px 20px 0px 0px;
+  }
+  .form__row4 {
+  }
+  .form__name {
+    margin: 0px 0px 20px 0px;
+  }
+  .form__phone {
+    margin: 0px 0px 20px 0px;
+  }
+  .form__load-file {
+    margin: 20px 0px 0px 0px;
+  }
+  .contact-us-block-left__form input {
+    min-width: 350px;
+  }
+  .load__file-label {
+    min-width: 350px;
+  }
+  .form__call-us-btn {
+    min-width: 350px;
+    margin: 20px 0px 0px 0px;
+  }
+  .checkbox__text-wrap {
+    display: inline-block;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -681,6 +716,7 @@
     height: auto;
   }
   /* our-principles-block */
+
   .our-principes-block {
     padding: 170px 0px 100px 0px;
   }
@@ -737,6 +773,9 @@
     left: 68px;
   }
   /* our-customers-section */
+  .our-customers-block__row {
+    display: flex;
+  }
   .our-customers-block {
     padding: 150px 0px 130px 0px;
     position: relative;
@@ -808,7 +847,8 @@
   .contact-us-block {
     padding: 150px 0px 50px 0px;
     position: relative;
-    background-image: url("../img/bg-contact-us.svg"), url("../img/map.svg");
+    background-image: url("../img/bg-contact-us.svg"),
+      url("../img/map-main.png");
     background-color: #232323;
     background-repeat: no-repeat;
     background-position: 400px 128px, 900px 0;
@@ -863,11 +903,8 @@
     min-width: 350px;
     margin: 20px 0px 0px 0px;
   }
-
-  .contact-us-block__map-icon {
-    position: absolute;
-    top: 259px;
-    left: 1152px;
+  .checkbox__text-wrap {
+    display: inline-block;
   }
 }
 
