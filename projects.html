@@ -10,6 +10,10 @@
       href="sk-infrastructure-website/img/icons/map-icon.svg"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+    />
     <link rel="stylesheet" href="sk-infrastructure-website/css/projects.css" />
   </head>
   <body>
@@ -36,7 +40,7 @@
 
           <nav class="header__menu">
             <ul class="header__list">
-              <li><a href="#" class="header__link">Главная</a></li>
+              <li><a href="index.html" class="header__link">Главная</a></li>
               <li><a href="#" class="header__link">Компания</a></li>
               <li><a href="#" class="header__pre-link">Вакансии</a></li>
               <li><a href="#" class="header__link">Услуги</a></li>
@@ -72,9 +76,9 @@
     <div class="projects-block">
       <div class="container">
         <div class="projects-block__page-position">
-          <a href="#">Главная</a>
+          <a href="index.html">Главная</a>
           <span>/</span>
-          <a href="#">Контакты</a>
+          <a href="projects.html">Проекты</a>
         </div>
         <div class="projects-block__title">
           <h3>Проекты</h3>
@@ -84,6 +88,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/our-customers-block-logo1.svg"
@@ -102,6 +107,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo2.svg"
@@ -120,6 +126,8 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo3.svg"
@@ -137,8 +145,9 @@
           </div>
           <div class="items-our-customers-block__rectangle4 rectangle">
             <div class="items-our-customers-block__status">
-              <p>Завершен</p>
+              <p>В работе</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo4.svg"
@@ -157,6 +166,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo5.svg"
@@ -175,6 +185,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo6.svg"
@@ -193,6 +204,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo7.svg"
@@ -211,6 +223,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo8.svg"
@@ -229,6 +242,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo9.svg"
@@ -247,6 +261,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo10.svg"
@@ -265,6 +280,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo11.svg"
@@ -283,6 +299,7 @@
             <div class="items-our-customers-block__status">
               <p>Завершен</p>
             </div>
+            <div class="items-our-customers-block__status-circle"></div>
             <div class="items-our-customers-block__logo">
               <img
                 src="sk-infrastructure-website/img/icons/projects-block-logo12.svg"
@@ -300,8 +317,11 @@
         </div>
       </div>
     </div>
-
+    <a href="#popup" class="popup-link">popup-link</a>
+    <div id="popup" class="mfp-hide popup">popup-content</div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="sk-infrastructure-website/js/popup.js"></script>
     <script src="sk-infrastructure-website/js/header.js"></script>
   </body>
 </html>
