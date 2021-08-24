@@ -840,7 +840,7 @@
       url("../img/map-main.png");
     background-color: #232323;
     background-repeat: no-repeat;
-    background-position: 400px 128px, 900px 0;
+    background-position: 400px 128px, 769px 0;
     background-size: auto auto, cover;
     overflow: hidden;
   }
@@ -896,3 +896,8 @@
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1350px) {
+  .contact-us-block {
+    background-position: 400px 128px, 900px 0;
+  }
+}
