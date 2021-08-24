@@ -1,7 +1,9 @@
 @import "null-style.css";
 @import "fonts.css";
 @import "header.css";
-
+html {
+  scroll-behavior: smooth;
+}
 /* header-section */
 .header-infrastructure-bg-wrapper {
   background: url("../img/bg-header.png") 0 0 / cover no-repeat;
@@ -777,7 +779,7 @@
   }
   .rectangle {
     width: 100%;
-    max-width: 480px;
+    max-width: 380px;
     height: 390px;
     cursor: pointer;
     opacity: 1;
@@ -899,5 +901,13 @@
 @media (min-width: 1350px) {
   .contact-us-block {
     background-position: 400px 128px, 900px 0;
+  }
+}
+
+@media (min-width: 1470px) {
+  .rectangle {
+    width: 100%;
+    max-width: 480px;
+    height: 390px;
   }
 }
