@@ -153,8 +153,6 @@ nav {
     margin-top: 87px;
 }
 .page-contact-us p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 28px;
     color: #ffffff;
@@ -181,8 +179,6 @@ form {
     color: #fff;
 }
 .form__left p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 25px;
     color: #ffffff;
@@ -298,8 +294,6 @@ form {
 }
 .check a {
     font-family: "Gilam Regular";
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 25px;
     color: #ffffff;
@@ -316,12 +310,8 @@ form {
     margin-right: 15px;
     position: relative;
     text-align: center;
-    text-indent: 0px;
-    width: 29px;
     height: 29px;
     background: #fff;
-    border-image: initial;
-    vertical-align: middle;
     min-width: 29px;
 }
 .check input:checked + label:before {
@@ -330,7 +320,6 @@ form {
     font-family: "Font Awesome 5 Pro";
     font-size: 12px;
     font-weight: 900;
-    font-style: normal;
 }
 .check input:disabled + label:before {
     background: #eee;
@@ -340,6 +329,10 @@ form {
     .container__contact {
         padding: 0px 15px;
         min-width: 290px;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
     }
     .w-100 {
         width: 100%;
@@ -362,7 +355,7 @@ form {
         width: 50%;
     }
     .container__contact {
-        padding: 0 0 0 15px;
+        padding: 0 0 0 10px;
     }
 }
 
