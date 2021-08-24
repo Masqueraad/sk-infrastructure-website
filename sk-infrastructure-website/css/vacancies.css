@@ -7,12 +7,19 @@ body {
 }
 .page__position {
     padding-top: 35px;
+    display: flex;
 }
 .page__position a {
     font-family: "Circle Light";
     font-size: 18px;
     line-height: 13px;
     text-decoration-line: underline;
+    color: #606060;
+}
+.page__position p {
+    font-family: "Circle Light";
+    font-size: 18px;
+    line-height: 13px;
     color: #606060;
 }
 .page__position span {
