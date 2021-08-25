@@ -674,6 +674,9 @@ html {
     min-width: 350px;
     margin: 20px 0px 0px 0px;
   }
+  .form__call-us-btn button {
+    background: transparent;
+  }
   .checkbox__text-wrap {
     display: inline-block;
   }
