@@ -78,6 +78,9 @@
   line-height: 50px;
   color: #ffffff;
 }
+.header__link:hover {
+  color: #e4b564;
+}
 .header__pre-link {
   font-family: "Gilam Light";
   font-style: normal;
@@ -85,6 +88,9 @@
   font-size: 16px;
   line-height: 36px;
   color: #ffffff;
+}
+.header__pre-link:hover {
+  color: #e4b564;
 }
 
 .header__burger {
@@ -170,9 +176,15 @@ body.lock {
 }
 
 @media (min-width: 1200px) {
+  body.lock {
+    overflow: auto;
+  }
   .header__menu {
     width: 50%;
     text-align: left;
+  }
+  .header__burger.active {
+    position: fixed;
   }
   .header__menu.active {
     text-align: left;

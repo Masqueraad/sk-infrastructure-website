@@ -887,6 +887,7 @@ html {
   }
   .load__file-label {
     min-width: 350px;
+    font-size: 14px;
   }
   .form__call-us-btn {
     min-width: 350px;
