@@ -139,11 +139,14 @@ body {
 }
 .contact-us-block {
     color: #ffffff;
-    padding: 40px 0px 40px 0px;
-    background: url("/sk-infrastructure-website/img/bg-contact-us.svg");
+    padding: 40px 0px 700px 0px;
+    position: relative;
+    background-image: url("../img/bg-contact-us.svg"),
+        url("../img/map-main.png");
     background-color: #232323;
     background-repeat: no-repeat;
-    background-position: -219px 270px;
+    background-position: -219px 270px, -213px 573px;
+    background-size: auto auto, cover;
     overflow: hidden;
 }
 .contact-us-block__row {
@@ -178,6 +181,7 @@ body {
 .contact-us-block-left__rowitems img {
     margin: 5px 15px 0px 0px;
 }
+
 .contact-us-block-left__phone a {
     color: #fff;
 }
@@ -190,6 +194,7 @@ body {
     font-size: 20px;
     line-height: 28px;
 }
+
 .contact-us-block-left-contact__title {
     font-style: normal;
     font-weight: 600;
@@ -214,13 +219,14 @@ body {
 }
 .contact-us-block-left__form input {
     background-color: #151515;
-    padding: 15px 0 15px 25px;
+    padding: 22px 0 22px 25px;
     width: 100%;
     color: #fff;
 }
 .form__name {
     margin: 0px 0px 14px 0px;
 }
+
 .form__phone {
     margin: 20px 0px 10px 0px;
 }
@@ -231,9 +237,11 @@ body {
 .load__file-label {
     display: block;
     background-color: #151515;
-    padding: 15px 0 15px 25px;
+    padding: 18px 0 18px 25px;
     width: 100%;
     color: #fff;
+    line-height: 24px;
+    cursor: pointer;
 }
 .load__file-input {
     display: none;
@@ -242,14 +250,18 @@ body {
     width: 100%;
     max-width: 30px;
 }
+
 .form__call-us-btn {
     border: 1px solid #e4b564;
-    padding: 10px;
+    padding: 14px 25px;
     text-align: center;
+    line-height: 30px;
+    cursor: pointer;
 }
 .form__call-us-btn a {
+    margin-top: 36px;
     cursor: pointer;
-    padding: 22px 25px;
+
     color: #e4b564;
 }
 ::-webkit-input-placeholder {
@@ -264,6 +276,7 @@ body {
 :-ms-input-placeholder {
     color: #fff;
 }
+
 .form__checkbox {
     margin: 20px 0px 0px 0px;
     display: flex;
@@ -299,24 +312,12 @@ body {
 .checkbox__text-span {
     text-decoration: underline;
 }
+.checkbox__text-wrap {
+    display: block;
+}
 
 .form__checkbox-input:checked + .style__checkbox::before {
     opacity: 1;
-}
-.map-container {
-    max-width: 100%;
-    margin: 0px -15px 0px -15px;
-}
-
-.contact-us-block__map-icon {
-    position: absolute;
-    top: 254px;
-    left: 245px;
-}
-.map-icon {
-    width: 100%;
-    min-width: 30px;
-    height: auto;
 }
 @media (min-width: 320px) {
     .container {
