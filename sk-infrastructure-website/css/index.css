@@ -403,6 +403,9 @@ html {
   border: 1px solid #e4b564;
   padding: 14px;
 }
+.form__call-us-btn button {
+  background: transparent;
+}
 ::-webkit-input-placeholder {
   color: #fff;
 }
@@ -673,9 +676,6 @@ html {
   .form__call-us-btn {
     min-width: 350px;
     margin: 20px 0px 0px 0px;
-  }
-  .form__call-us-btn button {
-    background: transparent;
   }
   .checkbox__text-wrap {
     display: inline-block;
