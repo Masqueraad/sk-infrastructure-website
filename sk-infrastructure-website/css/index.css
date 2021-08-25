@@ -292,10 +292,11 @@ html {
   background-image: url("../img/bg-contact-us.svg"), url("../img/map-main.png");
   background-color: #232323;
   background-repeat: no-repeat;
-  background-position: -219px 270px, -213px 573px;
+  background-position: -219px 270px, -352px 565px;
   background-size: auto auto, cover;
   overflow: hidden;
 }
+
 .contact-us-block__row {
   display: flex;
   flex-wrap: wrap;
@@ -460,13 +461,14 @@ html {
 @media (min-width: 320px) {
   .container {
     padding: 0px 15px 0px 15px;
-    min-width: 290px;
   }
 }
 @media (min-width: 576px) {
   .container {
     padding: 0px 15px 0px 15px;
-    min-width: 290px;
+  }
+  .contact-us-block {
+    background-position: -219px 271px, -220px 564px;
   }
 }
 
@@ -486,6 +488,9 @@ html {
   }
   .checkbox__text-wrap {
     display: inline-block;
+  }
+  .contact-us-block {
+    background-position: -219px 271px, -113px 566px;
   }
 }
 
@@ -669,6 +674,9 @@ html {
   }
   .checkbox__text-wrap {
     display: inline-block;
+  }
+  .contact-us-block {
+    background-position: -219px 270px, 6px 387px;
   }
 }
 

@@ -100,6 +100,7 @@
   display: block;
   z-index: 3;
 }
+
 .header__burger::before,
 .header__burger::after {
   content: "";
