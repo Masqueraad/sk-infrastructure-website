@@ -230,11 +230,12 @@ form {
 .form__right a {
     margin-top: 36px;
     cursor: pointer;
-    padding: 22px 25px;
+    padding: 14px 25px;
     background: #0e0e0e;
     border: 1px solid #e4b564;
     color: #e4b564;
     text-align: center;
+    line-height: 30px;
 }
 .form__right p {
     font-style: normal;
