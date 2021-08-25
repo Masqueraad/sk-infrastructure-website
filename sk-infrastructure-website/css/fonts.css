@@ -1,102 +1,109 @@
 @font-face {
-    font-family: "Gilam Bold";
-    src: url("../fonts/Fonts-boroda/GilamBold.eot");
-    src: local("☺"), url("../fonts/Fonts-boroda/GilamBold.woff") format("woff"),
-        url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
-        url("../fonts/Fonts-boroda/GilamBold.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilam Bold";
+  src: url("../fonts/Fonts-boroda/GilamBold.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamBold.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: "Gilroy Regular";
-    src: url("../fonts/Fonts-boroda/Gilroy-Regular.eot");
-    src: local("Gilroy Regular"), local("Gilroy-Regular"),
-        url("../fonts/Fonts-boroda/Gilroy-Regular.eot?#iefix")
-            format("embedded-opentype"),
-        url("../fonts/Fonts-boroda/Gilroy-Regular.woff") format("woff"),
-        url("../fonts/Fonts-boroda/Gilroy-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Gilam Book";
-    src: url("../fonts/Fonts-boroda/GilamBook.eot");
-    src: local("☺"), url("../fonts/Fonts-boroda/GilamBlack.woff") format("woff"),
-        url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
-        url("../fonts/Fonts-boroda/GilamBlack.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilroy Regular";
+  src: url("../fonts/Fonts-boroda/Gilroy-Regular.eot");
+  src: local("Gilroy Regular"), local("Gilroy-Regular"),
+    url("../fonts/Fonts-boroda/Gilroy-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Fonts-boroda/Gilroy-Regular.woff") format("woff"),
+    url("../fonts/Fonts-boroda/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Gilam Regular";
-    src: url("../fonts/Fonts-boroda/GilamRegular.eot");
-    src: local("☺"),
-        url("../fonts/Fonts-boroda/GilamRegular.woff") format("woff"),
-        url("../fonts/Fonts-boroda/GilamRegular.ttf") format("truetype"),
-        url("../fonts/Fonts-boroda/GilamRegular.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Gilam Semi-Bold";
-    src: url("../fonts/Fonts-boroda/GilamSemiBold.eot");
-    src: local("☺"),
-        url("../fonts/Fonts-boroda/GilamSemiBold.woff") format("woff"),
-        url("../fonts/Fonts-boroda/GilamSemiBold.ttf") format("truetype"),
-        url("../fonts/Fonts-boroda/GilamSemiBold.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilam Book";
+  src: url("../fonts/Fonts-boroda/GilamBook.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamBlack.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamBlack.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamBlack.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Gilam Extra-Light";
-    src: url("../fonts/Fonts-boroda/GilamExtraLight.eot");
-    src: local("☺"),
-        url("../fonts/Fonts-boroda/GilamExtraLight.woff") format("woff"),
-        url("../fonts/Fonts-boroda/GilamExtraLight.ttf") format("truetype"),
-        url("../fonts/Fonts-boroda/GilamExtraLight.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilam Regular";
+  src: url("../fonts/Fonts-boroda/GilamRegular.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamRegular.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamRegular.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: "Gilam Light";
-    src: url("../fonts/Fonts-boroda/GilamLight.eot");
-    src: local("☺"), url("../fonts/Fonts-boroda/GilamLight.woff") format("woff"),
-        url("../fonts/Fonts-boroda/GilamLight.ttf") format("truetype"),
-        url("../fonts/Fonts-boroda/GilamLight.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Circle Bold";
-    src: url("../fonts/Circle-fonts/Circle-bold.eot");
-    src: local("☺"),
-        url("../fonts/Circle-fonts/Circle-bold.woff") format("woff"),
-        url("../fonts/Circle-fonts/Circle-bold.ttf") format("truetype"),
-        url("../fonts/Circle-fonts/Circle-bold.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilam Semi-Bold";
+  src: url("../fonts/Fonts-boroda/GilamSemiBold.eot");
+  src: local("☺"),
+    url("../fonts/Fonts-boroda/GilamSemiBold.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamSemiBold.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamSemiBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Circle Light";
-    src: url("../fonts/Circle-fonts/Circle-light.eot");
-    src: local("☺"),
-        url("../fonts/Circle-fonts/Circle-light.woff") format("woff"),
-        url("../fonts/Circle-fonts/Circle-light.ttf") format("truetype"),
-        url("../fonts/Circle-fonts/Circle-light.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilam Extra-Light";
+  src: url("../fonts/Fonts-boroda/GilamExtraLight.eot");
+  src: local("☺"),
+    url("../fonts/Fonts-boroda/GilamExtraLight.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamExtraLight.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamExtraLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: "Circle Regular";
-    src: url("../fonts/Circle-fonts/Circle-Regular.eot");
-    src: local("☺"),
-        url("../fonts/Circle-fonts/Circle-Regular.woff") format("woff"),
-        url("../fonts/Circle-fonts/Circle-Regular.ttf") format("truetype"),
-        url("../fonts/Circle-fonts/Circle-Regular.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilam Light";
+  src: url("../fonts/Fonts-boroda/GilamLight.eot");
+  src: local("☺"), url("../fonts/Fonts-boroda/GilamLight.woff") format("woff"),
+    url("../fonts/Fonts-boroda/GilamLight.ttf") format("truetype"),
+    url("../fonts/Fonts-boroda/GilamLight.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circle Bold";
+  src: url("../fonts/Circle-fonts/Circle-bold.eot");
+  src: local("☺"), url("../fonts/Circle-fonts/Circle-bold.woff") format("woff"),
+    url("../fonts/Circle-fonts/Circle-bold.ttf") format("truetype"),
+    url("../fonts/Circle-fonts/Circle-bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circle Light";
+  src: url("../fonts/Circle-fonts/Circle-light.eot");
+  src: local("☺"), url("../fonts/Circle-fonts/Circle-light.woff") format("woff"),
+    url("../fonts/Circle-fonts/Circle-light.ttf") format("truetype"),
+    url("../fonts/Circle-fonts/Circle-light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circle Regular";
+  src: url("../fonts/Circle-fonts/Circle-Regular.eot");
+  src: local("☺"),
+    url("../fonts/Circle-fonts/Circle-Regular.woff") format("woff"),
+    url("../fonts/Circle-fonts/Circle-Regular.ttf") format("truetype"),
+    url("../fonts/Circle-fonts/Circle-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
