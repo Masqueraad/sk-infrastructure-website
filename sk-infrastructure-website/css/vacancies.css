@@ -1,6 +1,9 @@
 @import "null-style.css";
 @import "header.css";
 @import "fonts.css";
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #151515;
     color: #fff;
@@ -77,13 +80,48 @@ body {
     position: absolute;
     border-radius: 50%;
 }
+.panel {
+    padding: 0 18px;
+    color: #fff;
+    background-color: #0e0e0e;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+.panel li {
+    list-style: inherit;
+}
+.panel__info {
+    line-height: 20px;
+}
+.vacanc-list-style {
+    position: relative;
+}
 .info {
     margin-top: 32px;
     font-family: "Circle Regular";
-    font-size: 18px;
-    line-height: 25px;
+    background-color: #0e0e0e;
     color: #e4b564;
-    display: flex;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 16px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.vacanc-middle-right__info {
+    background-color: #151515;
+}
+.vacanc-middle-right__panel {
+    background-color: #151515;
+    position: absolute;
+}
+.vacanc-top-left__panel {
+    position: absolute;
 }
 .info p {
     border-bottom: 1px dashed #e4b564;
@@ -352,6 +390,9 @@ body {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .checkbox__text-wrap {
+        display: inline-block;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
